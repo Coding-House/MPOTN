@@ -1,0 +1,41 @@
+body {
+    font-family: 'Droid Sans', sans-serif;
+    background-color: #FDF2DE;
+}
+
+.header-title {
+    font-family: 'Droid Serif', serif;
+    font-size: 34px;
+    color: #080808;
+    text-shadow: 2px 2px 2px #A46D09;
+}
+
+a, a:visited, a:active {
+    color: hsl(39, 85%, 27%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.container-fluid {
+    background-color: #ecebd6 ;
+}
+
+h4 a {
+    display: block;
+}
+
+.panel-title:hover {
+    cursor: pointer;
+}
