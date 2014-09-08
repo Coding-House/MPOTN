@@ -3,68 +3,38 @@
 <head>
     <title>Montana Pets on the Net - Obedience, Agility, Dog Sports</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dogActivities.css">
 </head>
-<style type="text/css">
-    body {
-        font-family: 'Droid Sans', sans-serif;
-        background-color: #FDF2DE;
-    }
-    .header-title {
-        font-family: 'Droid Serif', serif;
-        font-size: 34px;
-        color: #080808;
-        text-shadow: 2px 2px 2px #A46D09;
-    }
-    a, a:visited, a:active {
-        color: hsl(39, 85%, 27%);
-        text-decoration: none;
-    }
-    a:hover {
-        color: #000;
-        text-decoration: none;
-    }
-    .bold-text {
-        font-weight: bold;
-    }
-    .text-underline {
-        text-decoration: underline;
-    }
-    .container-fluid {
-        background-color: #ecebd6 ;
-    }
 
-</style>
-</head>
 
 <body>
-<div class="container">
-<div class="row">
+    <div class="container">
+    <div class="row">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html"><img src="http://www.montanapets.org/dog1b.gif" width="80" height="65" border="0" align="left" alt="[Montana Pets Logo]" /></a>
+                </div>
 
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="index.html"><img src="http://www.montanapets.org/dog1b.gif" width="80" height="65" border="0" align="left" alt="[Montana Pets Logo]" /></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a class="c1" href="/statewide/obedagility.html">Dog Activities</a></li>
-                <li><a class="c1" href="waitinglist.html">Waiting List</a></li>
-                <li><a class="c1" href="events.html">Statewide Events</a></li>
-                <li><a href="memorials/index.html">Pet Memorials</a></li>
-                <li><a class="c1" href="aboutus.html">About</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a class="c1" href="/statewide/obedagility.html">Dog Activities</a></li>
+                        <li><a class="c1" href="waitinglist.html">Waiting List</a></li>
+                        <li><a class="c1" href="events.html">Statewide Events</a></li>
+                        <li><a href="memorials/index.html">Pet Memorials</a></li>
+                        <li><a class="c1" href="aboutus.html">About</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
 
     <div>
         <span class="c2">
@@ -80,14 +50,14 @@
         <div class="panel-group" id="accordion">
         <div class="panel panel-default">
         <div class="panel-heading">
-
             <h4 class="panel-title text-center">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                <a data-toggle="collapse" data-target="#collapseOne"">
+                    <!-- data-parent="#accordion" href="#collapseOne -->
                     Obedience, Agility, Dog Sports
                 </a>
             </h4>
         </div>
-        <div id="collapseOne" class="panel-collapse collapse in">
+        <div id="collapseOne" class="panel-collapse collapse">
             <div class="panel-body">
                 <div class="list-group">
                     <a href="http://www.yellowstonedogsports.com/index.php/events/"><h5 class="list-group-item-heading"><span class="bold-text text-underline">Yellowstone Dog Sports</span>:<span class="bold-text"></a> Red Lodge</span></h5>
@@ -267,55 +237,96 @@
                 </div>
                 </div>
             </div>
-            <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading">
 
                         <h4 class="panel-title text-center">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <a data-toggle="collapse" data-target="#collapseTwo">
                                 Kennel Clubs, Training Clubs, & Classes:
                             </a>
                         </h4>
                     </div>
-                    <div id="collapseOne" class="panel-collapse collapse in">
+                    <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
-                    <p><b>Billings/Laurel/Molt area</b>
-                    <p><b>Service Canines of Montana</b> Service Canines of Montana trains Service Dogs for people with disabilities.
-                        We will find you a dog, or train most owned dogs.  We will also do private dog obedience lessons.<br>
-                        FMI: call Deb Bouwkamp, 628-9852 or EM to <a href="mailto:sercom@optimum.net">sercom@optimum.net</a><br>
-                    <p><b>Agility</b> taught by Jennifer McCandles: agility classes, puppy confidence classes, and manners classes at the Animal Lodge Pet Resort.<br>
-                        FMI, EM to <a href="mailto:jmccandl@usadig.com">jmccandl@usadig.com</a><br>
+                            <div class="list-group">
+                                <h5 class="list-group-item-heading"><span class="bold-text">Billings/Laurel/Molt area</span></h5>
+                                    <br />
+                                    <p class="list-group-item-text"><span class="bold-text">Service Canines of Montana</span> Service Canines of Montana trains Service Dogs for people with disabilities.
+                                        We will find you a dog, or train most owned dogs.  We will also do private dog obedience lessons.
+                                        <br />
+                                        FMI: call Deb Bouwkamp, 628-9852 or EM to <a href="mailto:sercom@optimum.net"><span class="text-underline">sercom@optimum.net</span></a>
+                                    </p>
+                                    <br />
+                                    <p class="list-group-item-text"><span class="bold-text">Agility</span> taught by Jennifer McCandles: agility classes, puppy confidence classes, and manners classes at the Animal Lodge Pet Resort.
+                                        <br />
+                                        FMI, EM to <a href="mailto:jmccandl@usadig.com"><span class="text-underline">jmccandl@usadig.com</span></a>
+                                        <br />
+                                    </p>
+                                    <br />
+                                    <p class="list-group-item-text"><span class="bold-text">Kritterkare's Paws-a-tively Canine!</span> offers group classes for puppies to adults.  Year round classes offered include HeadStart for all ages, Puppy Kindergarten, Basic, Intermediate and Advance training.  Freestyle/Heel to Music, Rally-O and Conformation classes are offered also during the winters.  Puppy Pre-Agility, Agility Foundation Ground Work and Herding Foundation are offered during the summers.  In-Home Behavior Counseling and Private Lessons are available for dogs, cats and other pets.  Contact Helene Tiefenthaler, CPDT, IAABC Assoc., APDT Professional at <a href="mailto:kritterkare@cablemt.net"><span class="text-underline">kritterkare@cablemt.net</span></a> or call (406) 628-6140.
+                                    </p>
+                                    <hr />
+                            </div>
+                            <div class="list-group">
+                                <div>
+                                    <h5 class="list-group-item-heading"><span class="bold-text">Bozeman</span></h5>
+                                        <br />
+                                        <p class="list-group-item-text"><a href="http://www.gallopingdog.com"><span class="bold-text text-underline">Galloping Dog Agility Club</span></a>
+                                            <br />
+                                            Agility Classes all levels. Contact Renee Gaugler
+                                            <br />
+                                            <a href="mailto:rgaugler@firsthorizon.com"><span class="text-underline">rgaugler@firsthorizon.com</span></a> or call (406)-580-7397.
+                                        </p>
+                                        <br />
+                                    <p class="list-group-item-text"><a href="http://www.pawsandpeople.com"><span class="bold-text text-underline">Paws and People Dog Training Business</span></a>
+                                        <br />
+                                        Building a better relationship through positive training. We offer Puppy Socialization, Group Classes, Privates and Consultations. All classes are clicker based, were we learn communication instead of domination.
+                                        <br />
+                                        Contact Nancy Tanner at <a href="mailto:nancy@pawsandpeople.com"><span class="text-underline">nancy@pawsandpeople.com</span></a>
+                                    </p>
+                                    <br />
+                                    <p class="list-group-item-text"><a href="http://www.k9fundamentals.com"><span class="bold-text text-underline">K9FUNdamentals:</span></a>
+                                        offers Puppy Kindergarten, Foundation Skills for Agility and Competition,and Family Manners classes in the Bozeman area. Learn how dogs learn through a balanced approach to training that emphasises motivational
+                                        training using play, treats and toys. Make learning fun and rewarding for both partners while building a foundation for competition or companionship.
+                                        <br />
+                                        Contact Sami Jones at <a href="mailto:lodestar@mcn.net"><span class="text-underline">lodestar@mcn.net</span></a> or call (406)-388-1047.
+                                    </p>
+                                    <br />
+                                    <p class="list-group-item-text"><a href="http://members.aol.com/Robgreger/Anduril.html#Boarding"><span class="bold-text text-underline">Anduril Dog Training & Boarding:</span></a>
+                                        offering community obedience classes. Contact Rob & Cara Greg Greger at <a href="mailto:RobGreger@AOL.COM"><span class="text-underline">RobGreger@AOL.COM</span></a>
+                                        or call (406)-585-7817.
+                                    </p>
+                                    <br />
+                                    <p class="list-group-item-text"><span class="bold-text">Bozeman Agility Classes:</span>
+                                        taught by Nancy Creel: Tuesdays and Wednesdays. Contact Nancy Creel at <a href="mailto:nmcreel@bresnan.net"><span class="text-underline">nmcreel@bresnan.net</span></a> or call (406)-522-7748 to see if there are openings in classes.
+                                    </p>
+                                    <br />
+                                    <p class="list-group-item-text"><a href="http://www.montanadogtraining.com"><span class="bold-text text-underline">Montana Academy of Dog Training</span></a>
+                                        <br />
+                                        FMI: Davina K. Schoen (406) 994-0809 or <a href="mailto:dksmadt@msn.com"><span class="text-underline">dksmadt@msn.com</span></a>
+                                        <hr />
+                                    </p>
+                            </div>
+                            <div class="list-group">
+                                <h5 class="list-group-item-heading"><span class="bold-text">Dillon</span></h5>
+                                <p class="list-group-item-text"><a href="http://www.happy-hound.com/"><span class="bold-text text-underline">Happy Hounds Training, Inc.</span></a>
+                                    offers puppy socialization and foundation dog obedience classes on Tuesday evenings and beginning agility on Wednesday evenings. All classes are taught using positive teaching methods to create confidence and support successful behaviors in our canine pals.  Private lessons and consultations are also available.
 
-                    <p><b>Kritterkare's Paws-a-tively Canine!</b> offers group classes for puppies to adults.  Year round classes offered include HeadStart for all ages, Puppy Kindergarten, Basic, Intermediate and Advance training.  Freestyle/Heel to Music, Rally-O and Conformation classes are offered also during the winters.  Puppy Pre-Agility, Agility Foundation Ground Work and Herding Foundation are offered during the summers.  In-Home Behavior Counseling and Private Lessons are available for dogs, cats and other pets.  Contact Helene Tiefenthaler, CPDT, IAABC Assoc., APDT Professional at <a href="mailto:kritterkare@cablemt.net">kritterkare@cablemt.net</a> or call (406) 628-6140.<hr>
-                </div>
-                <div>
-                    <p><b>Bozeman</b><br>
-                    <p><b><a href="http://www.gallopingdog.com">Galloping Dog Agility Club</b></a><br> Agility Classes all levels. Contact Renee Gaugler <a href="mailto:rgaugler@firsthorizon.com">rgaugler@firsthorizon.com</a> or call (406)-580-7397.<br>
+                                <br />
+                                FMI: <a href="http://www.happy-hound.com"><span class="text-underline">www.happy-hound.com</span></a>
+                                <br />
+                                FMI: Linda Lyon at (406) 683-2878 or <a href="mailto:llyon99163@yahoo.com"><span class="text-underline">llyon99163@yahoo.com</span></a>
+                                <hr />
+                                </p>
+                            </div>
+                            <div class="list-group">
+                                <h5 class="list-group-item-heading"><span class="bold-text">Statewide</span></h5>
+                                <p class="list-group-item-text">
+                                    <span class="bold-text">ASC of Montana</span>(the Montana affiliate) of the Australian Shepherd Club of America (ASCA®), is a breed club for Australian Shepherd fanciers, trainers, competitors, and breeders.  The objectives of our club are to promote the natural qualities of Australian Shepherds and provide educational and competitive opportunities for their owners. We sponsor educational events as well as dog competitions and dog shows.  With the exception of conformation shows, our activities are open to all breeds. Club members have access to various dog training resources, activities and facilities all across Montana.  Our members live all over the state. If you have an interest in Aussies or dog sports and would like to know more, you may visit our website at <span class="text-underline"><a href="http://www.ascofmt.org">ASC of Montanax</a></span>
+                                </p>
+                                <hr />
+                            </div>
 
-                    <p><a href="http://www.pawsandpeople.com"><b>Paws and People Dog Training Business</b></a><br>
-                        Building a better relationship through positive training. We offer Puppy Socialization, Group Classes, Privates and Consultations. All classes are clicker based, were we learn communication instead of domination.<br>
-                        Contact Nancy Tanner at <a href="mailto:nancy@pawsandpeople.com">nancy@pawsandpeople.com</a><br>
-
-                    <p><a href="http://www.k9fundamentals.com"><b>K9FUNdamentals:</b></a> offers Puppy Kindergarten, Foundation Skills for Agility and Competition,and Family Manners classes in the Bozeman area. Learn how dogs learn through a balanced approach to training that emphasises motivational
-                        training using play, treats and toys. Make learning fun and rewarding for both partners while building a foundation for competition or companionship.  Contact Sami Jones at <a href="mailto:lodestar@mcn.net">lodestar@mcn.net</a> or call (406)-388-1047.<br>
-
-                    <p><a href="http://members.aol.com/Robgreger/Anduril.html#Boarding"><b>Anduril Dog Training & Boarding:</b></a> offering community obedience classes. Contact Rob & Cara Greg Greger at <a href="mailto:RobGreger@AOL.COM">RobGreger@AOL.COM</a> or call (406)-585-7817.
-
-                    <p><b>Bozeman Agility Classes:</b> taught by Nancy Creel: Tuesdays and Wednesdays.  Contact Nancy Creel at <a href="mailto:nmcreel@bresnan.net">nmcreel@bresnan.net</a> or call (406)-522-7748 to see if there are openings in classes.
-
-                    <p><b><a href="http://www.montanadogtraining.com">Montana Academy of Dog Training</a></b><br>
-                        FMI: Davina K. Schoen (406) 994-0809 or <a href="mailto:dksmadt@msn.com">dksmadt@msn.com</a><hr>
-                </div>
-                <div>
-                    <p><b>Dillon</b><br>
-                    <b><a href="http://www.happy-hound.com/">Happy Hounds Training, Inc.</a></b> offers puppy socialization and foundation dog obedience classes on Tuesday evenings and beginning agility on Wednesday evenings. All classes are taught using positive teaching methods to create confidence and support successful behaviors in our canine pals.  Private lessons and consultations are also available.<br>
-                    FMI: <a href="http://www.happy-hound.com">www.happy-hound.com</a><br>
-                    FMI: Linda Lyon at (406) 683-2878 or <a href="mailto:llyon99163@yahoo.com">llyon99163@yahoo.com</a><hr>
-                </div>
-                <div>
-                    <p><b>Statewide</b><br>
-                    <b>ASC of Montana</b> (the Montana affiliate) of the Australian Shepherd Club of America (ASCA®), is a breed club for Australian Shepherd fanciers, trainers, competitors, and breeders.  The objectives of our club are to promote the natural qualities of Australian Shepherds and provide educational and competitive opportunities for their owners. We sponsor educational events as well as dog competitions and dog shows.  With the exception of conformation shows, our activities are open to all breeds. Club members have access to various dog training resources, activities and facilities all across Montana.  Our members live all over the state. If you have an interest in Aussies or dog sports and would like to know more, you may visit our website at <a href="http://www.ascofmt.org">ASC of Montana</a><hr>
-                </div>
                 <div>
                     <p><b>Great Falls</b><br>
                     <p><a href="http://www.greatfallsdogtraining.org"><b>Great Falls Dog Training Club</b></a> is an all breed obedience club licensed by the AKC serving North Central Montana.<br>
@@ -449,10 +460,9 @@
                 </div>
                 </div>
                 </div>
-                </div>
         </div>
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        <!--<script src="dogActivities.js"></script>-->
+            <script src="dogActivities.js"></script>
     </body>
 </html>
